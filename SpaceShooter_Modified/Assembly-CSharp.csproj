@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5c22b428-c3e3-6ef2-2e91-ed035980c56e}</ProjectGuid>
+    <ProjectGuid>{7fb29fb5-e65f-51dc-d606-86fab66ef3af}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -41,6 +41,8 @@
      <Compile Include="Assets\Script\Player.cs" />
      <Compile Include="Assets\Script\Powerup.cs" />
      <Compile Include="Assets\Script\SpawnManager.cs" />
+     <Compile Include="Assets\Script\bulletExplosion.cs" />
+     <Compile Include="Assets\Script\explodingEnemy.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -570,31 +572,31 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter/SpaceShooter_Tutorial/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter_modif/SpaceShooter_Modified/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter/SpaceShooter_Tutorial/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter_modif/SpaceShooter_Modified/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter/SpaceShooter_Tutorial/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter_modif/SpaceShooter_Modified/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter/SpaceShooter_Tutorial/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter_modif/SpaceShooter_Modified/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter/SpaceShooter_Tutorial/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter_modif/SpaceShooter_Modified/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter/SpaceShooter_Tutorial/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter_modif/SpaceShooter_Modified/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter/SpaceShooter_Tutorial/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter_modif/SpaceShooter_Modified/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter/SpaceShooter_Tutorial/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter_modif/SpaceShooter_Modified/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter/SpaceShooter_Tutorial/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/computer/Documents/GitHub/SpaceShooter_modif/SpaceShooter_Modified/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

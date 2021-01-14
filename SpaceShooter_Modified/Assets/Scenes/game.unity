@@ -359,6 +359,8 @@ MonoBehaviour:
     type: 3}
   _TripleShotPrefab: {fileID: 7388968934390821556, guid: aae992cc7a8158a4ca92597de2d7d155,
     type: 3}
+  _explodingEnemyPrefab: {fileID: 38894503191600607, guid: 326fc032022ad394fa0d2d3b96635566,
+    type: 3}
   _enemyContainer: {fileID: 861874269}
 --- !u!4 &1492368163
 Transform:
@@ -578,8 +580,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855574167}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0.01, y: -2.92, z: 0}
+  m_LocalScale: {x: 0.3028255, y: 0.3028255, z: 0.3028255}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3

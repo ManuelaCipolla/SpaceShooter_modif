@@ -8,15 +8,19 @@ public class SpawnManager : MonoBehaviour
     private GameObject _enemyPrefab; //name of variable should always describe what it contains or what is doing
     [SerializeField]
     private GameObject _TripleShotPrefab;
+    [SerializeField]
+    private GameObject _explodingEnemyPrefab;
 
 [SerializeField]
 private GameObject _enemyContainer;
+
 private bool _StopSpawning = false;
 
     void Start()
     {
         StartCoroutine(SpawnRoutine()); //can also do "SpawnRoutine" but its less efficient
         StartCoroutine(SpawnPowerupRoutine());
+        StartCoroutine(SpawnExplodingEnemyRoutine());
     }
 
     // Update is called once per frame
@@ -50,6 +54,16 @@ private bool _StopSpawning = false;
             Instantiate(_TripleShotPrefab, posToSpawn, Quaternion.identity);
             //wait a random number of seconds within the range of 6 to 9 secs before spawning another powerup
             yield return new WaitForSeconds(Random.Range(6,10));
+        }
+    }
+
+    IEnumerator SpawnExplodingEnemyRoutine()
+    {
+        while(_StopSpawning == false)
+        {
+            Vector3 posToSpawn = new Vector3(Random.Range(-9.2f, 9.2f),7f,0);
+            Instantiate(_explodingEnemyPrefab,posToSpawn, Quaternion.identity);
+            yield return new WaitForSeconds(Random.Range(3,7));
         }
     }
 
